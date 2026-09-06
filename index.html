@@ -1626,13 +1626,9 @@ document.getElementById("btn-print").addEventListener("click", async () => {
       }
     }
 
-    // Tell every viewer to regenerate field appearances on open.
-    try {
-      const acroDict = form.acroForm.dict;
-      acroDict.set(PDFName.of('NeedAppearances'), pdf.context.obj(true));
-    } catch(e) { console.warn('NeedAppearances flag failed:', e); }
-    // Also try pdf-lib's own appearance generation — some viewers ignore NeedAppearances.
+    // Regenerate appearances, then flatten so values are baked into page content — renders in every viewer.
     try { form.updateFieldAppearances(helv); } catch(e) { console.warn('updateFieldAppearances failed:', e); }
+    try { form.flatten(); } catch(e) { console.warn('flatten failed:', e); }
     const outBytes = await pdf.save();
     const projectName = ((state.fields["f-lot"] || "") + "-" + (state.fields["f-btype"] || "checklist")).replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "").toLowerCase() || "checklist";
     await dl.save({ filename: `${projectName}-filled.pdf`, data: outBytes, mimeType: "application/pdf" });
