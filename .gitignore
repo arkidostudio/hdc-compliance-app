@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+._*
+
+# Editors
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Word lock files
+~$*

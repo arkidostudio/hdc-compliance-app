@@ -1,0 +1,89 @@
+{
+  "items": {
+    "i0_0":"pass","i0_1":"pass","i0_2":"pass","i0_3":"pass","i0_4":"pass","i0_5":"pass","i0_6":"pass","i0_7":"pass","i0_8":"na","i0_9":"na",
+    "i1_0":"pass","i1_1":"pass","i1_2":"pass","i1_3":"pass",
+    "i2_0":"pass","i2_1":"pass",
+    "i3_0":"pass","i3_1":"pass","i3_2":"pass","i3_3":"pass","i3_4":"pass","i3_5":"pass","i3_6":"pass","i3_7":"pass","i3_8":"pass","i3_9":"pass","i3_10":"pass","i3_11":"pass",
+    "i4_0":"pass","i4_1":"pass","i4_2":"pass","i4_3":"pass","i4_4":"pass","i4_5":"pass","i4_6":"pass","i4_7":"pass","i4_8":"na","i4_9":"pass",
+    "i5_0":"pass","i5_1":"pass","i5_2":"pass","i5_3":"pass",
+    "i6_0":"pass","i6_1":"pass","i6_2":"pass","i6_3":"pass","i6_4":"pass","i6_5":"pass","i6_6":"pass","i6_7":"pass","i6_8":"pass","i6_9":"pass","i6_10":"pass",
+    "i7_0":"pass","i7_1":"pass","i7_2":"pass","i7_3":"pass","i7_4":"pass","i7_5":"pass",
+    "i8_0":"pass","i8_1":"pass","i8_2":"pass","i8_3":"pass","i8_4":"pass","i8_5":"na","i8_6":"pass","i8_7":"pass",
+    "i9_0":"pass","i9_1":"pass","i9_2":"pass","i9_3":"pass","i9_4":"pass","i9_5":"pass",
+    "i10_0":"pass","i10_1":"pass","i10_2":"pass","i10_3":"pass","i10_4":"pass","i10_5":"pass","i10_6":"pass",
+    "i11_0":"pass","i11_1":"pass","i11_2":"pass","i11_3":"na","i11_4":"pass","i11_5":"pass","i11_6":"pass","i11_7":"pass",
+    "i12_0":"pass","i12_1":"pass","i12_2":"pass","i12_3":"pass","i12_4":"pass","i12_5":"pass","i12_6":"pass","i12_7":"pass","i12_8":"pass","i12_9":"pass","i12_10":"pass",
+    "i13_0":"pass","i13_1":"pass","i13_2":"pass","i13_3":"pass",
+    "i14_0":"pass","i14_1":"pass","i14_2":"pass","i14_3":"pass","i14_4":"pass","i14_5":"pass","i14_6":"pass","i14_7":"pass","i14_8":"pass","i14_9":"pass","i14_10":"pass","i14_11":"na","i14_12":"pass",
+    "i15_0":"pass","i15_1":"pass","i15_2":"pass","i15_3":"pass","i15_4":"pass","i15_5":"pass","i15_6":"pass","i15_7":"pass","i15_8":"pass",
+    "i16_0":"pass","i16_1":"pass","i16_2":"pass","i16_3":"pass","i16_4":"pass","i16_5":"pass","i16_6":"pass","i16_7":"pass","i16_8":"pass","i16_9":"pass","i16_10":"pass","i16_11":"pass","i16_12":"pass","i16_13":"pass","i16_14":"pass",
+    "i17_0":"pass","i17_1":"pass","i17_2":"pass","i17_3":"pass","i17_4":"pass","i17_5":"pass","i17_6":"pass","i17_7":"pass","i17_8":"pass","i17_9":"pass","i17_10":"pass","i17_11":"pass","i17_12":"pass","i17_13":"pass","i17_14":"pass","i17_15":"pass","i17_16":"pass","i17_17":"pass","i17_18":"pass","i17_19":"pass","i17_20":"pass","i17_21":"pass","i17_22":"pass","i17_23":"pass","i17_24":"pass","i17_25":"pass"
+  },
+  "notes": {
+    "i0_1": "Sheets 01-42 signed by checker on 2026-01-05.",
+    "i6_5": "Section cut at grid B; also sheet A-201.",
+    "i14_2": "Basement provided per §4.3.",
+    "i17_13": "Garbage room = 45 sqft, under stairs, 1.6m clear."
+  },
+  "values": {
+    "area-plot":  "12,500",
+    "area-built": "8,240",
+    "area-open":  "4,260",
+    "ht":         "22.5",
+    "fsi":        "1.85",
+    "pk-prov":    "44",
+    "pk-req":     "40"
+  },
+  "fields": {
+    "f-lot":       "10001",
+    "f-sub":       "Detail drawing",
+    "f-owner":     "Ahmed Ali Waheed\nFathimath Ibrahim Rasheed",
+    "f-contact":   "+960 771 2345",
+    "f-city":      "K. Malé",
+    "f-btype":     "Residential — Single-family House",
+    "f-project-type": "hulhumale-residential",
+
+    "f-parch":     "Mohamed Ismail",          "f-parch-reg": "PA-2019-0037",
+    "f-peng":      "Hassan Nizar",            "f-peng-reg":  "PE-2019-0114",
+    "f-arch":      "Aishath Shazna",          "f-arch-reg":  "LA-2020-0221",
+    "f-eng":       "Ali Rasheed",             "f-eng-reg":   "LE-2020-0308",
+    "f-achk":      "Mohamed Razzan Abdulla",  "f-achk-reg":  "ACHK-0421",
+    "f-schk":      "Ibrahim Fauzee",          "f-schk-reg":  "SCHK-0139",
+
+    "s-a-addr":  "H. Meynaa, Maafannu, Malé", "s-a-id":   "A123456",
+    "s-a-phone": "+960 771 8899",             "s-a-mail": "razzan@example.mv",
+    "s-a-date":  "2026-01-15",
+
+    "s-s-addr":  "M. Rose Villa, Hulhumalé",  "s-s-id":   "A987654",
+    "s-s-phone": "+960 776 4433",             "s-s-mail": "fauzee@example.mv",
+    "s-s-date":  "2026-01-15",
+
+    "daf-parch-addr":  "G. Fehiaage, Malé",   "daf-parch-id":    "A112233",
+    "daf-parch-phone": "+960 771 1111",       "daf-parch-email": "prelim.arch@example.mv",
+    "daf-arch-addr":   "H. Blue Ocean, Malé", "daf-arch-id":     "A445566",
+    "daf-arch-phone":  "+960 771 2222",       "daf-arch-email":  "lic.arch@example.mv",
+    "daf-peng-addr":   "M. Marbaas, Malé",    "daf-peng-id":     "A778899",
+    "daf-peng-phone":  "+960 771 3333",       "daf-peng-email":  "prelim.eng@example.mv",
+    "daf-eng-addr":    "M. Amasse, Malé",     "daf-eng-id":      "A554433",
+    "daf-eng-phone":   "+960 771 4444",       "daf-eng-email":   "lic.eng@example.mv",
+
+    "daf-o1-id":    "A100200",  "daf-o1-email": "ahmed@example.mv",   "daf-o1-phone": "+960 771 5555",
+    "daf-o2-id":    "A300400",  "daf-o2-email": "fathima@example.mv", "daf-o2-phone": "+960 771 6666",
+
+    "daf-usages": "[{\"from\":\"B\",\"to\":\"B\",\"usage\":\"Parking\"},{\"from\":\"G\",\"to\":\"1\",\"usage\":\"Commercial\"},{\"from\":\"2\",\"to\":\"10\",\"usage\":\"Office\"},{\"from\":\"11\",\"to\":\"15\",\"usage\":\"Residential\"},{\"from\":\"16\",\"to\":\"16\",\"usage\":\"Amenities\"}]",
+
+    "c-plot":    "10001",
+    "c-city":    "K. Malé",
+    "c-btype":   "Residential — Single-family House",
+    "c-owner":   "Ahmed Ali Waheed\nFathimath Ibrahim Rasheed",
+    "c-arch":    "Mohamed Razzan Abdulla",
+    "c-checker": "Mohamed Razzan Abdulla",
+    "c-reg":     "achk-0421",
+    "c-date":    "2026-01-15",
+    "c-others":  "Additional structural review by external consultant, ref: SR-2026-042.",
+
+    "sec-na-15": "1",
+    "sec-na-16": "1",
+    "sec-na-17": ""
+  }
+}
