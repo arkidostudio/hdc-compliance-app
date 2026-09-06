@@ -1565,6 +1565,7 @@ document.getElementById("btn-print").addEventListener("click", async () => {
     const pdf = await PDFDocument.load(bytes);
     const form = pdf.getForm();
     const helvBold = await pdf.embedFont(StandardFonts.HelveticaBold);
+    const helv     = await pdf.embedFont(StandardFonts.Helvetica);
     const black = rgb(0,0,0);
     const F = k => (state.fields[k] || "").trim();
 
@@ -1654,6 +1655,8 @@ document.getElementById("btn-print").addEventListener("click", async () => {
       }
     }
 
+    // Regenerate field appearances so values render in every viewer (Adobe/Preview/Chrome)
+    try { form.updateFieldAppearances(helv); } catch(e) { console.warn('updateFieldAppearances failed:', e); }
     const outBytes = await pdf.save();
     const projectName = ((state.fields["f-lot"] || "") + "-" + (state.fields["f-btype"] || "checklist")).replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "").toLowerCase() || "checklist";
     await dl.save({ filename: `${projectName}-filled.pdf`, data: outBytes, mimeType: "application/pdf" });
